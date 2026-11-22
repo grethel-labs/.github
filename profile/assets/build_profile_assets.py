@@ -136,13 +136,6 @@ def hero(mode):
 @keyframes pulse {{ 50% {{ opacity: .55; transform: scale(1.06) }} }}
 """
     tx = 520
-    chips = ""
-    cx = tx
-    for label in ["Open source", "Dev tools", "Diagrams", "Self-hosted", "Experiments"]:
-        w = 22 + len(label) * 9.4
-        chips += (f'<rect x="{cx}" y="414" width="{w:.0f}" height="34" rx="17" fill="{t["accent_subtle"]}" stroke="{t["brand"]}" stroke-opacity=".45"/>'
-                  f'<text x="{cx + w/2:.1f}" y="436" text-anchor="middle" font-size="15" font-weight="600" fill="{t["accent"]}">{label}</text>')
-        cx += w + 10
     body = f"""
 <defs>
 <clipPath id="c"><rect width="{W}" height="{H}" rx="28"/></clipPath>
@@ -160,7 +153,6 @@ def hero(mode):
 <text x="{tx}" y="262" font-size="40" font-weight="700" fill="{t['text']}" letter-spacing="-0.5">Open-source tools</text>
 <text x="{tx}" y="312" font-size="40" font-weight="700" fill="{t['text']}" letter-spacing="-0.5">and <tspan fill="{t['accent']}">experiments.</tspan></text>
 <text class="mono" x="{tx}" y="372" font-size="19" fill="{t['muted']}"><tspan fill="{t['accent']}">~/lab</tspan> $ ls  <tspan fill="{t['text2']}">tools/  experiments/  ideas/</tspan><tspan class="cursor" fill="{t['accent']}"> ▌</tspan></text>
-{chips}
 </g>
 <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="28" stroke="{t['border']}"/>
 """
@@ -264,135 +256,17 @@ def card_deploy(mode):
     return svg(W, H, "server-deploy-toolkit", "server-deploy-toolkit uses Ansible to deploy applications to your own Linux servers.", body, style)
 
 
-# ---------------------------------------------------------------- workflow
-def workflow(mode):
-    t = THEMES[mode]
-    W, H = 1280, 300
-    nodes = [
-        ("01", "Experiment", "Ideas start small, in the open", "status: experiment"),
-        ("02", "Harden", "What proves useful gets tests &amp; docs", "status: tool"),
-        ("03", "Share", "Versioned and open source", "use it · fork it"),
-    ]
-    bw, bh, y = 330, 196, 52
-    xs = [40, 475, 910]
-    icons = [
-        lambda x, y: mark(t, x - 2, y - 1, 44, t["accent"], t["brand"]),
-        # diagram
-        lambda x, y: (f'<rect x="{x}" y="{y}" width="18" height="14" rx="3" stroke="{t["accent"]}" stroke-width="2.5"/>'
-                      f'<rect x="{x+24}" y="{y+28}" width="18" height="14" rx="3" stroke="{t["accent"]}" stroke-width="2.5"/>'
-                      f'<path d="M {x+9} {y+14} V {y+35} H {x+24}" stroke="{t["accent"]}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'),
-        lambda x, y: (f'<path d="M {x+21} {y} L {x+42} {y+10} V {y+32} L {x+21} {y+42} L {x} {y+32} V {y+10} Z M {x} {y+10} L {x+21} {y+20} L {x+42} {y+10} M {x+21} {y+20} V {y+42}" stroke="{t["accent"]}" stroke-width="2.5" stroke-linejoin="round"/>'),
-    ]
-    body = f'<rect width="{W}" height="{H}" rx="28" fill="{t["canvas"]}"/>{grid_defs(t, W, H, "wg", 32)}'
-    for i, ((num, head, sub, tool), x) in enumerate(zip(nodes, xs)):
-        body += (f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" rx="18" fill="{t["surface"]}" stroke="{t["border"]}"/>'
-                 f'<rect x="{x}" y="{y}" width="{bw}" height="4" rx="2" fill="{t["brand"]}" opacity="{0.35 + i*0.3:.2f}"/>'
-                 f'<rect x="{x+24}" y="{y+28}" width="64" height="64" rx="14" fill="{t["accent_subtle"]}"/>'
-                 + icons[i](x + 35, y + 39) +
-                 f'<text class="mono" x="{x+bw-24}" y="{y+50}" text-anchor="end" font-size="15" fill="{t["muted"]}">{num}</text>'
-                 f'<text x="{x+24}" y="{y+124}" font-size="26" font-weight="800" fill="{t["text"]}">{head}</text>'
-                 f'<text x="{x+24}" y="{y+150}" font-size="16" fill="{t["text2"]}">{sub}</text>'
-                 f'<text class="mono" x="{x+24}" y="{y+176}" font-size="15" font-weight="600" fill="{t["accent"]}">→ {tool}</text>')
-    for x in (40 + bw, 475 + bw):
-        x1, x2, cy = x + 8, x + 105 - 8, y + bh / 2
-        body += (f'<path d="M {x1} {cy} H {x2}" stroke="{t["border2"]}" stroke-width="2" stroke-dasharray="4 6"/>'
-                 f'<path d="M {x2-8} {cy-7} L {x2} {cy} L {x2-8} {cy+7}" stroke="{t["border2"]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
-                 f'<circle class="dot" cx="{x1}" cy="{cy}" r="6" fill="{t["brand"]}"/>')
-    style = """
-.dot { animation: travel 2.2s cubic-bezier(.5,0,.5,1) infinite; }
-@keyframes travel { 0% { transform: translateX(0); opacity: 0 } 15% { opacity: 1 } 85% { opacity: 1 } 100% { transform: translateX(80px); opacity: 0 } }
-"""
-    body += f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="28" stroke="{t["border"]}"/>'
-    return svg(W, H, "How the lab works", "Three steps: ideas start as open experiments, useful ones are hardened into tools, then shared as versioned open source.", body, style)
 
 
-# ---------------------------------------------------------------- principles
-def principles(mode):
-    t = THEMES[mode]
-    W, H = 1280, 230
-    items = [
-        ("Open by default", ["Code, issues and experiments", "live in public repositories."]),
-        ("Small, sharp tools", ["Each tool does one job well", "and plays nicely with others."]),
-        ("Your stack, your rules", ["Text formats, local-first,", "self-hostable where it matters."]),
-    ]
-    body = ""
-    for i, (head, lines) in enumerate(items):
-        x = 40 + i * 413
-        body += (f'<rect x="{x}" y="20" width="373" height="190" rx="18" fill="{t["surface"]}" stroke="{t["border"]}"/>'
-                 + mark(t, x + 28, 46, 44, t["mark"], t["brand"]) +
-                 f'<text x="{x+28}" y="136" font-size="23" font-weight="800" fill="{t["text"]}">{head}</text>'
-                 + "".join(f'<text x="{x+28}" y="{166 + j*24}" font-size="16" fill="{t["text2"]}">{l}</text>' for j, l in enumerate(lines)))
-    return svg(W, H, "Lab principles", "Open by default. Small, sharp tools. Your stack, your rules.", body)
 
 
-# ---------------------------------------------------------------- section header
-def section(mode, slug, label, num):
-    t = THEMES[mode]
-    W, H = 1280, 90
-    body = (f'<text class="mono" x="2" y="54" font-size="18" fill="{t["accent"]}">{num}</text>'
-            f'<text x="56" y="58" font-size="34" font-weight="800" fill="{t["text"]}" letter-spacing="-0.6">{label}</text>'
-            f'<path d="M {70 + len(label)*19.5:.0f} 46 H {W-60}" stroke="{t["border"]}" stroke-width="2"/>'
-            f'<rect class="sweep" x="{70 + len(label)*19.5:.0f}" y="45" width="120" height="3" rx="1.5" fill="{t["brand"]}"/>'
-            + mark(t, W - 46, 26, 40))
-    end = W - 60 - 120 - (70 + len(label) * 19.5)
-    style = f""".sweep {{ animation: sweep 5s ease-in-out infinite alternate; }}
-@keyframes sweep {{ to {{ transform: translateX({end:.0f}px) }} }}"""
-    return svg(W, H, label, f"Section: {label}", body, style)
-
-
-# ---------------------------------------------------------------- footer
-def footer(mode):
-    t = THEMES[mode]
-    W, H = 1280, 200
-    body = f"""
-<rect width="{W}" height="{H}" rx="28" fill="{t['canvas']}"/>
-{grid_defs(t, W, H, "fg", 32)}
-{mark(t, 596, 30, 88)}
-<text x="640" y="152" text-anchor="middle" font-size="20" font-weight="700" fill="{t['text']}">Built in the lab. Shared in the open.</text>
-<text class="mono" x="640" y="180" text-anchor="middle" font-size="14" fill="{t['muted']}">github.com/grethel-labs</text>
-"""
-    return svg(W, H, "Grethel Labs", "Grethel Labs footer: Built in the lab. Shared in the open.", body)
-
-
-def bench(mode):
-    t = THEMES[mode]
-    W, H = 1280, 210
-    rnd = random.Random(3)
-    bub = "".join(f'<circle class="b" cx="{118 + rnd.uniform(-6, 10):.1f}" cy="128" r="{rnd.uniform(3,6):.1f}" style="animation-delay:{-i*0.7:.1f}s"/>' for i in range(5))
-    style = f"""
-.b {{ fill: {t['brand']}; opacity: 0; animation: rise 3.5s linear infinite; }}
-@keyframes rise {{ 0% {{ transform: translateY(0); opacity: 0 }} 15% {{ opacity: .9 }} 100% {{ transform: translateY(-110px); opacity: 0 }} }}
-.bar {{ animation: load 4s cubic-bezier(.6,0,.3,1) infinite; }}
-@keyframes load {{ 0% {{ width: 0 }} 80%,100% {{ width: 360px }} }}
-"""
-    body = f"""
-<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="24" fill="{t['canvas']}" stroke="{t['border2']}" stroke-width="2" stroke-dasharray="10 8"/>
-{mark(t, 48, 40, 130)}
-{bub}
-<text x="230" y="88" font-size="30" font-weight="800" fill="{t['text']}" letter-spacing="-0.4">More on the bench</text>
-<text x="230" y="122" font-size="17" fill="{t['text2']}">New tools and experiments land in this organization first.</text>
-<text class="mono" x="230" y="166" font-size="15" fill="{t['muted']}">next experiment</text>
-<rect x="380" y="154" width="360" height="14" rx="7" fill="{t['accent_subtle']}"/>
-<rect class="bar" x="380" y="154" width="240" height="14" rx="7" fill="{t['brand']}"/>
-<text class="mono" x="760" y="166" font-size="15" fill="{t['accent']}">brewing…</text>
-"""
-    return svg(W, H, "More on the bench", "New tools and experiments land in the Grethel Labs organization first.", body, style)
-
-
-SECTIONS = [("projects", "Featured tools", "01"), ("index", "Lab index", "02"), ("workflow", "How the lab works", "03"), ("principles", "Principles", "04"), ("brand", "Brand", "05")]
 
 for mode in THEMES:
     files = {
         f"hero-{mode}.svg": hero(mode),
         f"card-excaliplant-{mode}.svg": card_excaliplant(mode),
         f"card-server-deploy-toolkit-{mode}.svg": card_deploy(mode),
-        f"workflow-{mode}.svg": workflow(mode),
-        f"principles-{mode}.svg": principles(mode),
-        f"footer-{mode}.svg": footer(mode),
-        f"bench-{mode}.svg": bench(mode),
     }
-    for slug, label, num in SECTIONS:
-        files[f"section-{slug}-{mode}.svg"] = section(mode, slug, label, num)
     for name, content in files.items():
         with open(os.path.join(OUT, name), "w") as f:
             f.write(content)
