@@ -9,14 +9,18 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/grethel-labs/excaliplant">
-        <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-excaliplant-dark.svg#gh-dark-mode-only" alt="excaliplant turns PlantUML into editable Excalidraw diagrams and exports SVG or PNG" width="100%">
-        <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-excaliplant-light.svg#gh-light-mode-only" alt="excaliplant turns PlantUML into editable Excalidraw diagrams and exports SVG or PNG" width="100%">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-excaliplant-dark.svg">
+          <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-excaliplant-light.svg" alt="excaliplant turns PlantUML into editable Excalidraw diagrams and exports SVG or PNG" width="100%">
+        </picture>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/grethel-labs/server-deploy-toolkit">
-        <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-server-deploy-toolkit-dark.svg#gh-dark-mode-only" alt="server-deploy-toolkit uses Ansible to deploy applications to your own Linux servers" width="100%">
-        <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-server-deploy-toolkit-light.svg#gh-light-mode-only" alt="server-deploy-toolkit uses Ansible to deploy applications to your own Linux servers" width="100%">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-server-deploy-toolkit-dark.svg">
+          <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/card-server-deploy-toolkit-light.svg" alt="server-deploy-toolkit uses Ansible to deploy applications to your own Linux servers" width="100%">
+        </picture>
       </a>
     </td>
   </tr>
@@ -27,16 +31,18 @@
 Tools are maintained and documented. Experiments are exploratory and may break. This list is generated from the public repositories of the organization.
 
 <!-- repos:start -->
-<img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/repos-dark.svg#gh-dark-mode-only" alt="Table of Grethel Labs repositories" width="100%">
-<img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/repos-light.svg#gh-light-mode-only" alt="Table of Grethel Labs repositories" width="100%">
-
-[excaliplant](https://github.com/grethel-labs/excaliplant) · [server-deploy-toolkit](https://github.com/grethel-labs/server-deploy-toolkit)
+| Repository | Description | Status |
+|---|---|---|
+| [excaliplant](https://github.com/grethel-labs/excaliplant) | Render PlantUML as editable, hand-drawn Excalidraw diagrams, SVG, and PNG. Pure JavaScript, no Java or server required. | Tool |
+| [server-deploy-toolkit](https://github.com/grethel-labs/server-deploy-toolkit) | A self-hosted toolkit for deploying applications to Linux servers with Ansible, isolated environments, configurable hardening, monitoring, and optional AI-assisted maintenance. | Tool |
 
 <details>
 <summary>Lab map</summary>
 
-<img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/lab-map-dark.svg#gh-dark-mode-only" alt="Map of the Grethel Labs repositories, rendered with excaliplant" width="100%">
-<img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/lab-map-light.svg#gh-light-mode-only" alt="Map of the Grethel Labs repositories, rendered with excaliplant" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/lab-map-dark.svg">
+  <img src="https://raw.githubusercontent.com/grethel-labs/.github/main/profile/assets/lab-map-light.svg" alt="Map of the Grethel Labs repositories, rendered with excaliplant" width="100%">
+</picture>
 
 <sub>Generated from the repository list and rendered with <a href="https://github.com/grethel-labs/excaliplant">excaliplant</a>.</sub>
 
