@@ -1,0 +1,151 @@
+{
+  "brand": "Grethel Labs",
+  "logo": "Flask G",
+  "brand_png_count": 12,
+  "diagram_preview_png_count": 2,
+  "palette": {
+    "ink": "#111827",
+    "off_white": "#F7F8FA",
+    "teal": "#2DB8A8"
+  },
+  "assets": [
+    {
+      "file": "logos/01-logo-primary-light.png",
+      "category": "logos",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "d53d9d538574fa199b56bb3f830948819613ae7965ee7b9ac324ab1be2c1ebc1"
+    },
+    {
+      "file": "logos/02-logo-primary-dark.png",
+      "category": "logos",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "71cf27da6dfbacd595c4a29325d9201cb7ec4bf093f07900846fc59ada3f53d3"
+    },
+    {
+      "file": "signets/03-signet-primary-transparent.png",
+      "category": "signets",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_background": true,
+      "sha256": "0e3f8a65149dd85b73fef24a571651783db88321087546cc4c8575ffe2e5c65c"
+    },
+    {
+      "file": "signets/04-signet-mono-transparent.png",
+      "category": "signets",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_background": true,
+      "sha256": "65f41a87bcd03a654487aa20c718ec4b67c73c678959627b693798328b4ecef2"
+    },
+    {
+      "file": "signets/05-signet-outline-transparent.png",
+      "category": "signets",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_background": true,
+      "sha256": "9fbe286991f821f745687995a0397c8948c15e658712be7b9a5b1caeccdf16bc"
+    },
+    {
+      "file": "logos/06-logo-detail.png",
+      "category": "logos",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "11908a1d1f9dd326372988db7890793dab8d9a2fe9ed99ed164a60e65bb5ca36"
+    },
+    {
+      "file": "avatars/07-avatar-dark.png",
+      "category": "avatars",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "0319c7d365fcba19098ef312e5211627781e643087fbac6e37098d4a61454c1d"
+    },
+    {
+      "file": "avatars/08-avatar-light.png",
+      "category": "avatars",
+      "width_px": 1254,
+      "height_px": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "e30b1583f89f5a7942c1e2c17ddc24c3ae7f2d51a398433b918e9d0a408a6751"
+    },
+    {
+      "file": "banners/09-banner-dark.png",
+      "category": "banners",
+      "width_px": 2172,
+      "height_px": 724,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "01275d2b4eeba803c74480df2786e697f639f6a2475e302c138d0f405ea8ed3d"
+    },
+    {
+      "file": "banners/10-banner-light.png",
+      "category": "banners",
+      "width_px": 2172,
+      "height_px": 724,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "56233c181f9243d743c53850fb4f4a6f7e123614cd6d498e80064410671282d1"
+    },
+    {
+      "file": "backgrounds/11-background-dark.png",
+      "category": "backgrounds",
+      "width_px": 1672,
+      "height_px": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "6bb935c43092f1639930640f6509a30da187eb6c09117b8b8845257f6c29468c"
+    },
+    {
+      "file": "backgrounds/12-background-light.png",
+      "category": "backgrounds",
+      "width_px": 1672,
+      "height_px": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "transparent_background": false,
+      "sha256": "915f5ce071ebf5ac5ef20ef46f3ba884e4faf7e2cd6d143f42cb58299054de5e"
+    },
+    {
+      "file": "diagram-theme/grethel-clean-light.png",
+      "category": "diagram-theme",
+      "width_px": 3200,
+      "height_px": 1800,
+      "format": "PNG",
+      "transparent_background": false,
+      "status": "Design reference, not an excaliplant export"
+    },
+    {
+      "file": "diagram-theme/grethel-clean-dark.png",
+      "category": "diagram-theme",
+      "width_px": 3200,
+      "height_px": 1800,
+      "format": "PNG",
+      "transparent_background": false,
+      "status": "Design reference, not an excaliplant export"
+    }
+  ]
+}

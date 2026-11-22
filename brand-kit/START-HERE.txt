@@ -1,0 +1,74 @@
+GRETHEL LABS — BRAND KIT 2.0
+
+Die Erweiterung des freigegebenen Kolben-G-Designs.
+Alle Bildmotive liegen als separate Dateien vor.
+
+SCHNELLSTART
+
+1. Logo auswählen
+   svg/logo-horizontal-light.svg für helle Flächen.
+   svg/logo-horizontal-dark.svg für dunkle Flächen.
+   svg/signet-color.svg als einzelnes Zeichen.
+   svg/avatar-light.svg oder avatar-dark.svg als Profilbild.
+
+   16 SVGs enthalten echte Vektorpfade, auch im Schriftzug.
+   Die Grundlogos sind transparent; Avatare und Banner haben einen Hintergrund.
+   Zu jedem SVG liegt ein separates PNG in svg/previews/.
+
+2. Farbpalette ansehen
+   theme/palette-light.png und theme/palette-dark.png.
+   Beide Übersichten liegen zusätzlich als SVG vor.
+
+   theme/grethel-theme.css enthält sofort verwendbare CSS-Variablen (--gl-).
+   theme/grethel-theme.tokens.json enthält vollständig aufgelöste Farbwerte.
+   8 Skalen × 12 Stufen × 2 Modi = 192 Rohfarbwerte.
+   80 semantische Rollen je Modus decken Oberflächen, Text, Status, Fokus,
+   Interaktionszustände, Code und Diagramme ab.
+
+   Ohne data-theme auf <html> folgt das Theme der Systemeinstellung.
+   data-theme="light" oder data-theme="dark" erzwingt den jeweiligen Modus.
+   Details und Beispiele stehen in theme/README.txt.
+
+3. Hintergrund auswählen
+   backgrounds/ambient-wide-light.png und ambient-wide-dark.png: Desktop.
+   backgrounds/ambient-mobile-light.png und ambient-mobile-dark.png: Smartphone.
+   backgrounds/technical-grid-light.svg und technical-grid-dark.svg:
+   skalierbare, geometrische Hintergründe mit dem exakten Vektor-Signet.
+   Dazu liegen 4K-PNGs mit 3840 × 2160 Pixeln vor.
+
+4. Vorhandene Assets weiterverwenden
+   original-png-kit/ enthält das bisherige vollständige PNG-Paket.
+   original-png-kit/diagram-theme/ enthält die Excalidraw-Beispiele,
+   Diagramm-Exporte und den unveröffentlichten Issue-Entwurf.
+
+MARKENFARBEN
+
+Ink       #111827
+Off-White #F7F8FA
+Teal      #2DB8A8
+
+Die Grundfarben bleiben erhalten. Für Text und Bedienelemente verwenden
+die Themes passende funktionale Abstufungen. Im hellen Theme erhält der
+primäre Button dunkleres Teal und weiße Schrift. Im dunklen Theme erhält er
+Marken-Teal und Ink-Schrift. Nicht beliebige Vorder- und Hintergründe mischen.
+
+GRUNDLAGEN UND PRÜFUNG
+
+Die Farbrollen orientieren sich an der 12-Stufen-Struktur von Radix Colors.
+Neutral und Teal sind eigene Grethel-Skalen; Quellen und MIT-Lizenz für die
+übernommenen Funktionsskalen stehen im Ordner theme/.
+
+theme/contrast-report.json dokumentiert 150 bestandene, konkrete
+Kontrastpaarungen. Das ist keine vollständige Bewertung einer fertigen UI.
+svg/validation.json dokumentiert die technische SVG-Prüfung.
+
+Die Vektorgeometrie wurde aus der freigegebenen Rastervorlage rekonstruiert
+und leicht geglättet. Die ursprünglichen PNGs bleiben als eigene Bildmotive
+erhalten. Die SVGs sind für neue skalierbare Anwendungen vorgesehen.
+
+docs/README.txt enthält die Gestaltungsregeln.
+docs/diagram-theme-integration-note.txt beschreibt die weitere Einbindung
+in die Diagrammgestaltung. Es wurde kein Theme in ein Repository eingebaut
+und kein GitHub-Issue veröffentlicht.
+
+asset-manifest.json enthält Dateinamen, Größen, Bildmaße und SHA-256-Prüfsummen.

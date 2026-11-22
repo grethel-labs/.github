@@ -1,0 +1,89 @@
+{
+  "name": "Grethel Clean",
+  "version": "0.1.0",
+  "status": "proposed-design-tokens",
+  "description": "Semantic design proposal. Not a currently supported excaliplant configuration schema.",
+  "brand": {
+    "ink": "#111827",
+    "offWhite": "#F7F8FA",
+    "teal": "#2DB8A8"
+  },
+  "modes": {
+    "light": {
+      "canvas": "#F7F8FA",
+      "surface": "#FFFFFF",
+      "text": "#111827",
+      "textMuted": "#526173",
+      "border": "#64748B",
+      "edge": "#64748B",
+      "divider": "#D4DAE2",
+      "accent": "#117C70",
+      "accentFill": "#E5F6F2",
+      "brandAccent": "#2DB8A8"
+    },
+    "dark": {
+      "canvas": "#111827",
+      "surface": "#192231",
+      "text": "#F7F8FA",
+      "textMuted": "#B6C2D1",
+      "border": "#7A8AA0",
+      "edge": "#7A8AA0",
+      "divider": "#334155",
+      "accent": "#2DB8A8",
+      "accentFill": "#143A3B",
+      "brandAccent": "#2DB8A8"
+    }
+  },
+  "geometry": {
+    "strokeWidth": 2,
+    "roughness": 0,
+    "fillStyle": "solid",
+    "strokeStyle": "solid",
+    "nodeCornerRadius": 8,
+    "nodePadding": 24,
+    "minimumNodeGap": 48
+  },
+  "typography": {
+    "family": "Liberation Sans, Arial, sans-serif",
+    "excalidrawFontFamily": 9,
+    "nodeTitle": 26,
+    "nodeSubtitle": 17,
+    "edgeLabel": 17,
+    "lineHeight": 1.25
+  },
+  "rendering": {
+    "useExplicitPalette": true,
+    "applyAutomaticDarkFilter": false,
+    "notes": "The supplied Dark scene intentionally uses the light editor rendering mode to avoid automatic color inversion. The document palette is dark."
+  },
+  "contrastChecks": {
+    "light": {
+      "elements": 34,
+      "arrows": 5,
+      "png": [
+        3200,
+        1800
+      ],
+      "accentOnCanvasContrast": 4.772,
+      "textOnCanvasContrast": 16.694,
+      "mutedOnCanvasContrast": 5.959
+    },
+    "dark": {
+      "elements": 34,
+      "arrows": 5,
+      "png": [
+        3200,
+        1800
+      ],
+      "accentOnCanvasContrast": 7.208,
+      "textOnCanvasContrast": 16.694,
+      "mutedOnCanvasContrast": 9.821
+    }
+  },
+  "sources": [
+    "https://plus.excalidraw.com/docs/sdk/codebase/json-schema",
+    "https://plus.excalidraw.com/docs/sdk/excalidraw/api/props/initialdata",
+    "https://github.com/excalidraw/excalidraw/blob/master/packages/common/src/constants.ts",
+    "https://github.com/excalidraw/excalidraw/blob/master/packages/element/src/types.ts"
+  ]
+}

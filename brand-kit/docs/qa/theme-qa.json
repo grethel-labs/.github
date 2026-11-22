@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "scope": "Read-only independent token, selector-cascade and contrast-report consistency audit. CSS selector cases evaluated from parsed rules; no live browser accessibility audit.",
+  "semantic_roles_per_mode": {
+    "light": 80,
+    "dark": 80
+  },
+  "scales_per_mode": {
+    "light": 8,
+    "dark": 8
+  },
+  "cascade_cases": [
+    {
+      "system": "light",
+      "root_data_theme": null,
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": null,
+      "child_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "light",
+      "child_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "dark",
+      "child_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "auto",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "light",
+      "root_data_theme": "auto",
+      "child_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": null,
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": null,
+      "child_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "light",
+      "child_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "dark",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "dark",
+      "child_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "auto",
+      "expected_mode": "dark",
+      "passed": true
+    },
+    {
+      "system": "dark",
+      "root_data_theme": "auto",
+      "child_data_theme": "light",
+      "expected_mode": "light",
+      "passed": true
+    }
+  ],
+  "css_unresolved_references": [],
+  "contrast_pairs_recomputed": 150,
+  "white_on_brand_teal_contrast": 2.461,
+  "ink_on_brand_teal_contrast": 7.2084,
+  "hashes": {
+    "grethel-theme.css": "4ccf02d5fb5e28dc4f2ebec5d0860e335a65070f7831c75e94e9e46a8179c36c",
+    "grethel-theme.tokens.json": "dc416beebd84f4cefdd0005b843c8becbcfa0c1ca16c52ad52087480d7370c63",
+    "contrast-report.json": "658124b5743bc0a09733a3b9f2bdb61a8b5658ca1101d9c31f77e7d58634df0d"
+  },
+  "problems": [],
+  "extra_intended_pair_checks": [
+    {
+      "mode": "light",
+      "foreground": "#0B6E63",
+      "background": "#C0E8DF",
+      "ratio": 4.6279,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "mode": "dark",
+      "foreground": "#5CE0CC",
+      "background": "#195759",
+      "ratio": 5.0961,
+      "threshold": 4.5,
+      "passed": true
+    }
+  ],
+  "documentation_notes": [],
+  "current_report_count": 150,
+  "resolved_findings": [
+    "Light accent-subtle-active changed to #C0E8DF; accent-text contrast is now 4.6279:1. Both Light and Dark active-state pairs are present in the report.",
+    "Theme README and CSS comments now distinguish token declarations from the additional color-scheme property."
+  ],
+  "targeted_recheck_scope": [
+    "Light/Dark accent-text on accent-subtle-active",
+    "Matching CSS active tokens and raw teal-5 values",
+    "Presence and arithmetic of the two added report pairs",
+    "README color-scheme clarification"
+  ]
+}

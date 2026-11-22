@@ -1,0 +1,599 @@
+{
+  "name": "Grethel Labs Brand Kit",
+  "version": "2.0",
+  "date": "2026-11-21",
+  "brand": {
+    "ink": "#111827",
+    "off-white": "#F7F8FA",
+    "teal": "#2DB8A8"
+  },
+  "native_logo_svgs": 16,
+  "additional_background_motifs": 6,
+  "semantic_roles_per_mode": {
+    "light": 80,
+    "dark": 80
+  },
+  "contrast_checks": {
+    "test_count": 150,
+    "pass_count": 150,
+    "fail_count": 0
+  },
+  "files": [
+    {
+      "file": "START-HERE.txt",
+      "bytes": 3232,
+      "sha256": "556975b9524b5aaf7cbc0ada84a83b89b135154955f7b2dd6a7ccb98ceb8a6b6"
+    },
+    {
+      "file": "backgrounds/README.txt",
+      "bytes": 1389,
+      "sha256": "e5a882ad1a248f11f2bfe9963ff8b7ea6bc98d5b106d5fa818de55ca8e1a25c2"
+    },
+    {
+      "file": "backgrounds/ambient-mobile-dark.png",
+      "bytes": 1170545,
+      "sha256": "db4b7332fa0d7f162c72aad27d76b1a0ff3af8496b86b7c84e02067fcbe163ab",
+      "width": 941,
+      "height": 1672,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "backgrounds/ambient-mobile-light.png",
+      "bytes": 997387,
+      "sha256": "9f3c4b7547adb8a3740df8bd18511c09af10c2b50156bf380b1558f07e472862",
+      "width": 941,
+      "height": 1672,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "backgrounds/ambient-wide-dark.png",
+      "bytes": 1175334,
+      "sha256": "c6002c4fcf796e680e8d6e7c327ba3c6145155b9e72408abda50b152adc8fa71",
+      "width": 1672,
+      "height": 941,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "backgrounds/ambient-wide-light.png",
+      "bytes": 1062038,
+      "sha256": "014f2fd163ed7c606f756576c4b2cafabbecf0078235029d35ef362e5a5d062c",
+      "width": 1672,
+      "height": 941,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "backgrounds/build_vector_backgrounds.py",
+      "bytes": 2171,
+      "sha256": "0510fe0a02578479bfd822e5a57823bf1ac2529b850b2d4261fd4def80e9fe34"
+    },
+    {
+      "file": "backgrounds/generation-prompts.json",
+      "bytes": 4609,
+      "sha256": "6112cd22e898ba175f29a8a077d228ef6f1a9777205f5911d974a70d18c9d16e"
+    },
+    {
+      "file": "backgrounds/technical-grid-dark-4k.png",
+      "bytes": 94117,
+      "sha256": "24676d678d3bca9ad2a92b55a4bd78256bc2fa31f0072327380ec6611ee5ec8a",
+      "width": 3840,
+      "height": 2160,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "backgrounds/technical-grid-dark.svg",
+      "bytes": 5407,
+      "sha256": "14b4cfcdf5fce4d00df7c5907edb030081e4298dd902a86e46fd166e123eb36e",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "file": "backgrounds/technical-grid-light-4k.png",
+      "bytes": 91981,
+      "sha256": "c8fb5a657d227d9e9544845678a62546839e0e6bfc2255055a2c4beaa1fb3339",
+      "width": 3840,
+      "height": 2160,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "backgrounds/technical-grid-light.svg",
+      "bytes": 5408,
+      "sha256": "bb6a04803ae90726ec8efe6dc84f770b330d0fa292895838fbf5a0d818cc3ea2",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "file": "docs/README.txt",
+      "bytes": 6137,
+      "sha256": "8da0754002fa74bf8e70ad93a51196632475f96dacaa00b40d9db4f85ee6e705"
+    },
+    {
+      "file": "docs/diagram-theme-integration-note.txt",
+      "bytes": 1838,
+      "sha256": "2588f20f0e5a666bddf7068d1e7b18c93cb81081d1c6a5e23b0e45e35449a479"
+    },
+    {
+      "file": "docs/qa/theme-qa.json",
+      "bytes": 4053,
+      "sha256": "61bc9dec77880fb8e4818bcdfbfe55f272076a6eaee32eeeafcc6993ae578002"
+    },
+    {
+      "file": "original-png-kit/README.txt",
+      "bytes": 2312,
+      "sha256": "ff708c2db8bd9f098de907c45029113e2445e707e816bdfd10743b65b7d01d1e"
+    },
+    {
+      "file": "original-png-kit/asset-manifest.json",
+      "bytes": 4449,
+      "sha256": "ee79935e7301f2c23f859687447c17fe51caa6acc0007d0f4d2d7a76e6690b13"
+    },
+    {
+      "file": "original-png-kit/avatars/07-avatar-dark.png",
+      "bytes": 1127735,
+      "sha256": "0319c7d365fcba19098ef312e5211627781e643087fbac6e37098d4a61454c1d",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/avatars/08-avatar-light.png",
+      "bytes": 1006317,
+      "sha256": "e30b1583f89f5a7942c1e2c17ddc24c3ae7f2d51a398433b918e9d0a408a6751",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/backgrounds/11-background-dark.png",
+      "bytes": 1160691,
+      "sha256": "6bb935c43092f1639930640f6509a30da187eb6c09117b8b8845257f6c29468c",
+      "width": 1672,
+      "height": 941,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/backgrounds/12-background-light.png",
+      "bytes": 1085127,
+      "sha256": "915f5ce071ebf5ac5ef20ef46f3ba884e4faf7e2cd6d143f42cb58299054de5e",
+      "width": 1672,
+      "height": 941,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/banners/09-banner-dark.png",
+      "bytes": 1166458,
+      "sha256": "01275d2b4eeba803c74480df2786e697f639f6a2475e302c138d0f405ea8ed3d",
+      "width": 2172,
+      "height": 724,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/banners/10-banner-light.png",
+      "bytes": 1068563,
+      "sha256": "56233c181f9243d743c53850fb4f4a6f7e123614cd6d498e80064410671282d1",
+      "width": 2172,
+      "height": 724,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/README.txt",
+      "bytes": 1310,
+      "sha256": "be6523131f09b37e6551c087d64964e3f61a1e33ee1e0a8aaf6e2720cc9256a9"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/build_diagram_assets.py",
+      "bytes": 14614,
+      "sha256": "1d5243f4de865741678eaffa604333f98a7b94dadcd6e85fe7a7d2b8019be067"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/diagram-theme-issue.md",
+      "bytes": 10773,
+      "sha256": "1b06f593f4d82b7ab08fd00bd00202641fd3452bd219b1af166afb55933ed9c0"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-dark.excalidraw",
+      "bytes": 35705,
+      "sha256": "e260d7d4fb7a1d745513f9391cc069f0115d97a00f8e7dd46c3dd5bbf06d21ac"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-dark.png",
+      "bytes": 123320,
+      "sha256": "e70f448725819244cb49cf26a24c619cd31760e6850d2472e748f398876d9149",
+      "width": 3200,
+      "height": 1800,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-dark.svg",
+      "bytes": 69332,
+      "sha256": "2d68074eea13d38a0b2a0f1374273f2e5bf7eebf6bbeeab1131b3dab7c15ae6a",
+      "viewBox": "0 0 1600 900"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-light.excalidraw",
+      "bytes": 35709,
+      "sha256": "ecae94c5857fa83aae628f406604c0d88f625bc14c7bad3b15d84cf0b47d7c27"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-light.png",
+      "bytes": 125341,
+      "sha256": "2e36991509ceba1c290f9b6337e6b8f63b78b7225a4c819c0c700312351900ed",
+      "width": 3200,
+      "height": 1800,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean-light.svg",
+      "bytes": 69174,
+      "sha256": "2b99e772235372ae19831399944357ee9d8411f1ff403990ae970d1e3e8173a0",
+      "viewBox": "0 0 1600 900"
+    },
+    {
+      "file": "original-png-kit/diagram-theme/grethel-clean.tokens.json",
+      "bytes": 2364,
+      "sha256": "79f6181da148c1bc0233eb2269ab9496e70121fb9586297f51a19d941b082dbf"
+    },
+    {
+      "file": "original-png-kit/generation-prompts.json",
+      "bytes": 13151,
+      "sha256": "e068bf8a2bbdb31eeceb786861a23a36136e9efd7e13c21a8f7ff0fdf3472767"
+    },
+    {
+      "file": "original-png-kit/logos/01-logo-primary-light.png",
+      "bytes": 1062733,
+      "sha256": "d53d9d538574fa199b56bb3f830948819613ae7965ee7b9ac324ab1be2c1ebc1",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/logos/02-logo-primary-dark.png",
+      "bytes": 1214609,
+      "sha256": "71cf27da6dfbacd595c4a29325d9201cb7ec4bf093f07900846fc59ada3f53d3",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/logos/06-logo-detail.png",
+      "bytes": 1220659,
+      "sha256": "11908a1d1f9dd326372988db7890793dab8d9a2fe9ed99ed164a60e65bb5ca36",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGB"
+    },
+    {
+      "file": "original-png-kit/signets/03-signet-primary-transparent.png",
+      "bytes": 316584,
+      "sha256": "0e3f8a65149dd85b73fef24a571651783db88321087546cc4c8575ffe2e5c65c",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "original-png-kit/signets/04-signet-mono-transparent.png",
+      "bytes": 307292,
+      "sha256": "65f41a87bcd03a654487aa20c718ec4b67c73c678959627b693798328b4ecef2",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "original-png-kit/signets/05-signet-outline-transparent.png",
+      "bytes": 172136,
+      "sha256": "9fbe286991f821f745687995a0397c8948c15e658712be7b9a5b1caeccdf16bc",
+      "width": 1254,
+      "height": 1254,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/README.txt",
+      "bytes": 2704,
+      "sha256": "7be253619bdd181a5bda0ff72cf07c65542fff47de76510db38e7f345f406c9f"
+    },
+    {
+      "file": "svg/avatar-dark.svg",
+      "bytes": 1694,
+      "sha256": "5dbe39b4708ae258a91a3d5930f6ce1f1d9471b108d574be93b7b1bd58567e23",
+      "viewBox": "0 0 1000 1000"
+    },
+    {
+      "file": "svg/avatar-light.svg",
+      "bytes": 1699,
+      "sha256": "96857cb66db40ef9f3603b78197253f07d89f2b950bea69200bd4ac2775ee26a",
+      "viewBox": "0 0 1000 1000"
+    },
+    {
+      "file": "svg/banner-dark.svg",
+      "bytes": 8017,
+      "sha256": "d5b94e22d6c6c3410de97967947ad26ab9129a788ee5b0d4b9af17aad591f0e5",
+      "viewBox": "0 0 2400 800"
+    },
+    {
+      "file": "svg/banner-light.svg",
+      "bytes": 8022,
+      "sha256": "e30c84124f4e4681a2baef0d6c62a3e37c820357330aa524d233a8c2e0e92f95",
+      "viewBox": "0 0 2400 800"
+    },
+    {
+      "file": "svg/build_variants.py",
+      "bytes": 4997,
+      "sha256": "e929a7c6a5f625c565b9da568ff9a8d281f712f6aff267c0335dec4a15768fbe"
+    },
+    {
+      "file": "svg/logo-construction.svg",
+      "bytes": 8799,
+      "sha256": "31df396827369e7cba6864d100fb3aa6d121d980e85c92db1c5c613b4b5c2dc6",
+      "viewBox": "0 0 1254 1254"
+    },
+    {
+      "file": "svg/logo-horizontal-dark.svg",
+      "bytes": 8004,
+      "sha256": "ff12a6d2796d6b5682addda365cc52eb1a0aa156fd89eb6dda0157695e30cde6",
+      "viewBox": "0 0 1600 480"
+    },
+    {
+      "file": "svg/logo-horizontal-light.svg",
+      "bytes": 8009,
+      "sha256": "650cdffb1f0658d5a47beecd07c19be6498bfe4a84d9788fa9c789c64339ee38",
+      "viewBox": "0 0 1600 480"
+    },
+    {
+      "file": "svg/logo-stacked-dark.svg",
+      "bytes": 7992,
+      "sha256": "616c533bd7ef08481c094bec90ae616a7486a44f8d07fe8344a0c59b7de23fb1",
+      "viewBox": "0 0 1254 1254"
+    },
+    {
+      "file": "svg/logo-stacked-light.svg",
+      "bytes": 7997,
+      "sha256": "f287647b9a3ebf295b1469d4cf53be3ea7f8739f18739dbd0d8107c79b63dc75",
+      "viewBox": "0 0 1254 1254"
+    },
+    {
+      "file": "svg/master-mark.svg",
+      "bytes": 1570,
+      "sha256": "067dbc8008e7cba371c68437fe3abf1b52d7dd1f86a2bc3fa4ab667d060a325f",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "file": "svg/master-paths.json",
+      "bytes": 8755,
+      "sha256": "177360b4f27af99b2f5ff23ec948212774ad5c9ecbebc65370478bd28c64f14a"
+    },
+    {
+      "file": "svg/previews/avatar-dark.png",
+      "bytes": 50349,
+      "sha256": "fc38ba3688926ed5a81d44de88665723b7196186c9d778b4ab6f79bb59a73470",
+      "width": 2000,
+      "height": 2000,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/avatar-light.png",
+      "bytes": 49587,
+      "sha256": "de7f6151f921fde3f9a7b5eaf7c4399fe277c12b21a040b6a4f239a8931773d8",
+      "width": 2000,
+      "height": 2000,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/banner-dark.png",
+      "bytes": 112464,
+      "sha256": "f29205a66765a2b747d5a8e12e5e315a8631acf3f3f2388353c5294fde9cb8f7",
+      "width": 4800,
+      "height": 1600,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/banner-light.png",
+      "bytes": 112357,
+      "sha256": "9e8d2f2f1935c69e7a9ea929cc41cd4f84d0b3c27acfca2545d895c36a5daa15",
+      "width": 4800,
+      "height": 1600,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/logo-construction.png",
+      "bytes": 162832,
+      "sha256": "3865fb4ff61fc2f8c998c71e2952e1c34940b28b3486e415b5ca713f7e25b115",
+      "width": 2508,
+      "height": 2508,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/logo-horizontal-dark.png",
+      "bytes": 88387,
+      "sha256": "c1ece1d9fe459a98d6d204a572a435e8f672775fe842dc899194c5bd16871f1f",
+      "width": 3200,
+      "height": 960,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/logo-horizontal-light.png",
+      "bytes": 88264,
+      "sha256": "64df1b014bb548d5593486f69e7ccd998b467a48261a207dcafe5ebcd272d80b",
+      "width": 3200,
+      "height": 960,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/logo-stacked-dark.png",
+      "bytes": 108768,
+      "sha256": "5b71a39dcf7a0c78c4c665d0b4d0450b4ebe5b49bfca79081c9efbe360da5739",
+      "width": 2508,
+      "height": 2508,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/logo-stacked-light.png",
+      "bytes": 108184,
+      "sha256": "9fcb16f36b32faa771e230b41f3c2de211070ce15a1d95fdbd4ae8a8b8090e45",
+      "width": 2508,
+      "height": 2508,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/master-mark.png",
+      "bytes": 36192,
+      "sha256": "2242712d3210e7bdf42495eb02b8936841535be634a1886e94831d3cd185f09c",
+      "width": 1200,
+      "height": 1200,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/signet-color.png",
+      "bytes": 36192,
+      "sha256": "2242712d3210e7bdf42495eb02b8936841535be634a1886e94831d3cd185f09c",
+      "width": 1200,
+      "height": 1200,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/signet-inverse.png",
+      "bytes": 36998,
+      "sha256": "7cba2ee93a43141f1f30ccfcd23a09230a20ca2fe746a762a3d84b8316ff0a50",
+      "width": 1200,
+      "height": 1200,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/signet-mono.png",
+      "bytes": 36149,
+      "sha256": "707a6582227ba275f5641b62273e3e449464e1547514495ba0396b3cb06375cd",
+      "width": 1200,
+      "height": 1200,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/signet-outline.png",
+      "bytes": 60285,
+      "sha256": "334a3a74b9a4d330328ac529fd03cfe2caaecd7537faea38b7632850517a784e",
+      "width": 1200,
+      "height": 1200,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/wordmark-ink.png",
+      "bytes": 49376,
+      "sha256": "626efe7730de9ecdebb5543aec7f545321c6abe956ab2aefa61edfbcaec0a1a0",
+      "width": 1902,
+      "height": 238,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/previews/wordmark-inverse.png",
+      "bytes": 49398,
+      "sha256": "76a06accad6eb467a6ea730013013f3e71da4b3fe1ced78606ec114ae050944f",
+      "width": 1902,
+      "height": 238,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "svg/signet-color.svg",
+      "bytes": 1573,
+      "sha256": "91ebe87147701ec4cb36b2ad9ad0c5757bd9f42ccef65b14aab36cfcca99c9db",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "file": "svg/signet-inverse.svg",
+      "bytes": 1621,
+      "sha256": "38c887088b7571af4dbdd1776e9194fc9628a0866b161d16f6dab7933c9f27d0",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "file": "svg/signet-mono.svg",
+      "bytes": 1455,
+      "sha256": "6426c01b1533d8299c8b039dba50f1b5106d60d56b7b9b423cc8f83675156adf",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "file": "svg/signet-outline.svg",
+      "bytes": 1690,
+      "sha256": "5ebe4a98ef0414af8b76ed74401175a3fdd1f77a048e5d85be03ba77c6f6e972",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "file": "svg/validation.json",
+      "bytes": 6430,
+      "sha256": "c40b4dfc97bd94c335a0a0324c42d51f44576941ead7f32276d3dd5296688be0"
+    },
+    {
+      "file": "svg/wordmark-ink.svg",
+      "bytes": 6695,
+      "sha256": "0472187fc1ab69c656c53fc8f220a84e116d24953da74138946b859e54db4a54",
+      "viewBox": "0 0 951 119"
+    },
+    {
+      "file": "svg/wordmark-inverse.svg",
+      "bytes": 6723,
+      "sha256": "9dc60844afffed48a261284b066a58c62be640584e5cd09e1e40b57c8b30015c",
+      "viewBox": "0 0 951 119"
+    },
+    {
+      "file": "theme/LICENSE-radix-colors.txt",
+      "bytes": 1102,
+      "sha256": "d981bc30e0d78b9ffc8f279fcaa274ea0444ff51d983548a609397d5c8a42dc2"
+    },
+    {
+      "file": "theme/README.txt",
+      "bytes": 3217,
+      "sha256": "1da719d9c82f5bf0b272abaaf137520291fcf09363085ccdc3a5b978caacd526"
+    },
+    {
+      "file": "theme/build_theme.py",
+      "bytes": 23270,
+      "sha256": "e888281690a66f8d1fcb9072210240f245331c85747de1fd529b03cff6ba7e63"
+    },
+    {
+      "file": "theme/contrast-report.json",
+      "bytes": 43021,
+      "sha256": "658124b5743bc0a09733a3b9f2bdb61a8b5658ca1101d9c31f77e7d58634df0d"
+    },
+    {
+      "file": "theme/grethel-theme.css",
+      "bytes": 15565,
+      "sha256": "4ccf02d5fb5e28dc4f2ebec5d0860e335a65070f7831c75e94e9e46a8179c36c"
+    },
+    {
+      "file": "theme/grethel-theme.tokens.json",
+      "bytes": 13107,
+      "sha256": "dc416beebd84f4cefdd0005b843c8becbcfa0c1ca16c52ad52087480d7370c63"
+    },
+    {
+      "file": "theme/palette-dark.png",
+      "bytes": 404860,
+      "sha256": "f40630efdd6e964cf12dbe9e7b2d510e31f4ad71339dc002da5e843a65b78a1e",
+      "width": 2880,
+      "height": 2160,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "theme/palette-dark.svg",
+      "bytes": 9352,
+      "sha256": "88bb152b57023a378e3c105da53fc1049cd5385a3b0d096fddcf5aca2dcd9acc",
+      "viewBox": "0 0 1920 1440"
+    },
+    {
+      "file": "theme/palette-light.png",
+      "bytes": 391959,
+      "sha256": "5f2b9cffd971ffa84062bbd5ff19096c51ab8cac5db023ce7cd16682b8c40c6f",
+      "width": 2880,
+      "height": 2160,
+      "color_mode": "RGBA"
+    },
+    {
+      "file": "theme/palette-light.svg",
+      "bytes": 9353,
+      "sha256": "7911a860db4552ccf60577976d9e9be2415fb5ce022954e1fb082e7234ac9723",
+      "viewBox": "0 0 1920 1440"
+    },
+    {
+      "file": "theme/sources.json",
+      "bytes": 1666,
+      "sha256": "4e1d1f7cd4a901696d546b02cfe332e54f39efb5473d2db7895eec7e33926fe2"
+    },
+    {
+      "file": "theme/upstream-selected-colors.json",
+      "bytes": 4186,
+      "sha256": "d3b3c4092600a6d78dfe0f27845e449dbf6dfcd6c6d77af22bf5a66edc1ffd20"
+    }
+  ]
+}

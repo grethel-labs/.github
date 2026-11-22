@@ -1,0 +1,39 @@
+{
+  "retrieved_at": "2026-11-21",
+  "sources": [
+    {
+      "name": "Radix Colors: 12-step role structure",
+      "url": "https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale",
+      "use": "Structure and role inspiration, not a promise that custom pairings inherit Radix contrast guarantees."
+    },
+    {
+      "name": "Radix Colors light sRGB scales",
+      "url": "https://github.com/radix-ui/colors/blob/main/src/light.ts",
+      "raw_url": "https://raw.githubusercontent.com/radix-ui/colors/main/src/light.ts",
+      "sha256": "1a9725486609d36b469caa3b84b8de4348b7f2f05d45905127637b988329acbd",
+      "use": "Selected Green, Amber, Red, Blue, Violet and Orange scales."
+    },
+    {
+      "name": "Radix Colors dark sRGB scales",
+      "url": "https://github.com/radix-ui/colors/blob/main/src/dark.ts",
+      "raw_url": "https://raw.githubusercontent.com/radix-ui/colors/main/src/dark.ts",
+      "sha256": "d8599fe69a4454340b2bc82e003a210caa6b79082be9a1b7f13429ff03826c68",
+      "use": "Selected Green, Amber, Red, Blue, Violet and Orange scales."
+    },
+    {
+      "name": "Radix Colors MIT license",
+      "url": "https://github.com/radix-ui/colors/blob/main/LICENSE",
+      "use": "License for copied palette data; full notice included."
+    },
+    {
+      "name": "WCAG 2.2 SC 1.4.3",
+      "url": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+      "use": "Normal text target 4.5:1."
+    },
+    {
+      "name": "WCAG 2.2 SC 1.4.11",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "use": "Essential controls and graphical objects target 3:1 against adjacent colors."
+    }
+  ]
+}

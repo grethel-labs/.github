@@ -1,0 +1,15 @@
+ERGÄNZUNGSNOTIZ ZUM DIAGRAMM-THEME-ISSUE
+
+Status: Arbeitsnotiz zum bestehenden, noch unveröffentlichten Issue-Entwurf. Diese Datei ändert weder das Repository noch dessen API.
+
+Das erweiterte Brand Kit ergänzt SVG-Logo-Master sowie ein ausführlicheres Light-/Dark-Farbsystem. Beide Bereiche sollen gemeinsam dokumentiert werden, aber unterschiedliche Aufgaben behalten:
+
+– Die SVG-Master definieren das Kolben-G und die Wortmarke für Markenanwendungen. Ein Logo soll nicht automatisch in jeden Diagrammexport eingefügt werden.
+– Die UI-Tokens definieren Rollen für Flächen, Texte, Interaktionen, Statusmeldungen und weitere Oberflächenelemente. Nicht jede Rolle ist in einem Diagramm sinnvoll.
+– Die Diagramm-Presets benötigen eine nachvollziehbare Zuordnung zu ihren tatsächlich vorhandenen Rollen: Zeichenfläche, Knotenfläche, Knotenrand, Haupt-/Sekundärtext, Verbindung, Hervorhebung, Notiz und Gruppe.
+
+Vor einer Implementierung die Palette des ursprünglichen Diagramm-Entwurfs mit dem erweiterten Theme abgleichen. Unterschiede explizit entscheiden und dokumentieren, damit Beispielbilder, Token-Dateien und implementierte Presets dieselben Sollwerte verwenden. Die neue UI-Token-Datei nicht ungeprüft als excaliplant-Konfiguration ausgeben.
+
+Für die Abnahme geeignete Kontrastpaare innerhalb des Diagramms prüfen. Die UI-Kontrastprüfungen allein belegen weder die Lesbarkeit aller Diagramme noch die Darstellung im Excalidraw-Editor. Ein- und Ausgabe, Farben, verwendete Schriftmetriken und das Verhalten eines zusätzlichen Dark-Filters müssen zusammen betrachtet werden.
+
+Die bestehenden Anforderungen zu editierbaren Formen, Schriftunterstützung, Exportgleichheit und Priorität von Quellstilen bleiben bestehen. Die Ergänzung führt keine neuen API-Namen ein und behauptet keine erfolgte Umsetzung.

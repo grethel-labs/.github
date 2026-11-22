@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="t d" fill="none">
+<title id="t">excaliplant</title>
+<desc id="d">excaliplant turns PlantUML into editable Excalidraw diagrams and exports SVG or PNG.</desc>
+<style>
+text { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+
+.draw { stroke-dasharray: 60 14; animation: flow 1.6s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -74 } }
+.pop { animation: pop 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pop { 0%,100% { transform: rotate(-1.2deg) } 50% { transform: rotate(1.2deg) } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x="0.5" y="0.5" width="639" height="399" rx="24" fill="#F7F8FA" stroke="#D4DAE2"/>
+<rect x="32" y="100" width="300" height="196" rx="14" fill="#F0F3F6" stroke="#D4DAE2"/>
+<circle cx="52" cy="118" r="0"/>
+<text class="mono" x="54" y="124" font-size="12" fill="#526173">sequence.puml</text>
+<text class="mono" x="54" y="150" font-size="15" fill="#6550B9">@startuml</text><text class="mono" x="54" y="176" font-size="15" fill="#526173">actor User</text><text class="mono" x="54" y="202" font-size="15" fill="#526173">User -> API : request</text><text class="mono" x="54" y="228" font-size="15" fill="#526173">API -> DB : query</text><text class="mono" x="54" y="254" font-size="15" fill="#526173">DB --> API : rows</text><text class="mono" x="54" y="280" font-size="15" fill="#6550B9">@enduml</text>
+<path class="draw" d="M 338 206 L 386 206" stroke="#2DB8A8" stroke-width="3" stroke-linecap="round"/>
+<path d="M 378 198 L 388 206 L 378 214" stroke="#2DB8A8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="pop"><rect x="400" y="116" width="84" height="40" rx="6" fill="#E5F6F2"/><path d="M 398.4 117.5 Q 440.0 114.2 485.2 114.9 Q 486.0 135.1 484.0 155.8 Q 443.5 154.3 400.7 157.3 Q 399.3 138.4 398.4 117.5 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M 398.8 118.0 Q 441.0 115.6 485.8 113.9 Q 481.8 133.8 481.9 156.2 Q 441.6 155.8 401.9 155.5 Q 399.2 135.5 398.8 118.0 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><text x="442" y="142" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">User</text><rect x="510" y="196" width="84" height="40" rx="6" fill="#FFFFFF"/><path d="M 512.0 198.0 Q 552.5 196.5 592.0 194.2 Q 594.1 214.1 595.5 237.0 Q 552.8 235.6 510.7 235.2 Q 512.4 218.7 512.0 198.0 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M 512.0 196.2 Q 552.3 197.3 593.8 195.0 Q 593.0 214.7 592.0 233.9 Q 549.7 232.5 509.8 235.2 Q 510.1 214.1 512.0 196.2 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><text x="552" y="222" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">API</text><rect x="400" y="270" width="84" height="40" rx="6" fill="#FFFFFF"/><path d="M 398.8 270.2 Q 440.1 269.2 483.4 270.5 Q 486.2 289.1 484.6 308.1 Q 442.7 309.7 397.9 311.5 Q 399.0 289.3 398.8 270.2 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M 400.6 271.6 Q 441.5 269.3 484.1 271.1 Q 486.0 289.5 484.8 308.1 Q 443.9 310.9 401.1 310.4 Q 401.8 292.9 400.6 271.6 " stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><text x="442" y="296" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">DB</text><path d="M 473.8 157.3 Q 495.4 173.6 520.0 194.0" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M 474.8 158.6 Q 494.4 175.4 520.0 194.0" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M 520.0 194.0 L 508.1 192.5" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round"/><path d="M 520.0 194.0 L 515.7 182.8" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round"/><path d="M 512.6 236.9 Q 495.7 253.5 478.0 268.0" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M 511.1 235.9 Q 496.4 254.5 478.0 268.0" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M 478.0 268.0 L 481.2 256.4" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round"/><path d="M 478.0 268.0 L 489.7 265.5" stroke="#2DB8A8" stroke-width="2.2" stroke-linecap="round"/></g>
+<text x="32" y="64" font-size="30" font-weight="800" fill="#111827" letter-spacing="-0.4">excaliplant</text>
+<rect x="210" y="40" width="186" height="30" rx="15" fill="#E5F6F2"/>
+<text x="303" y="61" text-anchor="middle" font-size="14" font-weight="600" fill="#0B6E63">PlantUML → Excalidraw</text>
+<text x="32" y="340" font-size="17" fill="#526173">Turn PlantUML into editable Excalidraw diagrams.</text>
+<text x="32" y="366" font-size="17" fill="#526173">Keep sketching, then export to <tspan fill="#111827" font-weight="600">SVG</tspan> or <tspan fill="#111827" font-weight="600">PNG</tspan>.</text>
+
+</svg>

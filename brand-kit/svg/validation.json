@@ -1,0 +1,269 @@
+{
+  "status": "passed",
+  "svg_count": 16,
+  "checks": [
+    {
+      "file": "avatar-dark.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1000 1000",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        2000,
+        2000
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "avatar-light.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1000 1000",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        2000,
+        2000
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "banner-dark.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 2400 800",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        4800,
+        1600
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "banner-light.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 2400 800",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        4800,
+        1600
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "logo-construction.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1254 1254",
+      "native_paths": 19,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        2508,
+        2508
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "logo-horizontal-dark.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1600 480",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        3200,
+        960
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "logo-horizontal-light.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1600 480",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        3200,
+        960
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "logo-stacked-dark.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1254 1254",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        2508,
+        2508
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "logo-stacked-light.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 1254 1254",
+      "native_paths": 3,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        2508,
+        2508
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "master-mark.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 600 600",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1200,
+        1200
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "signet-color.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 600 600",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1200,
+        1200
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "signet-inverse.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 600 600",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1200,
+        1200
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "signet-mono.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 600 600",
+      "native_paths": 1,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1200,
+        1200
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "signet-outline.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 600 600",
+      "native_paths": 2,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1200,
+        1200
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "wordmark-ink.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 951 119",
+      "native_paths": 1,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1902,
+        238
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    },
+    {
+      "file": "wordmark-inverse.svg",
+      "xml_valid": true,
+      "viewBox": "0 0 951 119",
+      "native_paths": 1,
+      "forbidden_elements": [],
+      "external_references": false,
+      "title_and_desc": true,
+      "preview_px": [
+        1902,
+        238
+      ],
+      "preview_is_2x": true,
+      "passed": true
+    }
+  ],
+  "raster_reference_comparison": {
+    "mark": {
+      "foreground_mask_iou": 0.98466,
+      "note": "Shape comparison only. Signet intentionally normalized; not pixel-identical."
+    },
+    "wordmark": {
+      "foreground_mask_iou": 0.9874,
+      "note": "Shape comparison only. Signet intentionally normalized; not pixel-identical."
+    }
+  },
+  "visual_review": [
+    "master signet",
+    "stacked light lockup",
+    "dark banner",
+    "outlined signet"
+  ],
+  "limitations": [
+    "The approved AI-generated reference is reconstructed as native vectors; signet curves and straight edges are geometrically normalized.",
+    "Reference texture and shading are replaced by flat exact brand colors.",
+    "Wordmark is outlined and cannot be edited as live text.",
+    "PNG previews are flattened against light/dark review backgrounds. Standard logo SVGs remain transparent.",
+    "Outline and construction variants are intended for larger display sizes."
+  ]
+}

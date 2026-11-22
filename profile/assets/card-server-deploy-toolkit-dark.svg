@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="t d" fill="none">
+<title id="t">server-deploy-toolkit</title>
+<desc id="d">server-deploy-toolkit uses Ansible to deploy applications to your own Linux servers.</desc>
+<style>
+text { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+
+.ln { animation: type 6s steps(1) infinite; }
+@keyframes type { 0% { opacity: 0 } 6% { opacity: 1 } 92% { opacity: 1 } 100% { opacity: 0 } }
+.led { animation: led 1.4s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25 } }
+.pkt { animation: pkt 2.4s linear infinite; }
+@keyframes pkt { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -40 } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x="0.5" y="0.5" width="639" height="399" rx="24" fill="#111827" stroke="#334155"/>
+<rect x="32" y="100" width="324" height="196" rx="14" fill="#151E2C" stroke="#334155"/>
+<circle cx="52" cy="119" r="5" fill="#FF9592"/><circle cx="68" cy="119" r="5" fill="#FFCA16"/><circle cx="84" cy="119" r="5" fill="#3DD68C"/>
+<text class="mono ln" x="54" y="150" font-size="15" fill="#B6C2D1" style="animation-delay:0.00s"><tspan fill="#5CE0CC">$</tspan> ansible-playbook deploy.yml</text><text class="mono ln" x="54" y="176" font-size="15" fill="#B6C2D1" style="animation-delay:0.45s"><tspan fill="#8DA0B8">PLAY [app servers] ********</tspan></text><text class="mono ln" x="54" y="202" font-size="15" fill="#B6C2D1" style="animation-delay:0.90s"><tspan fill="#3DD68C">ok:</tspan> [web-01]</text><text class="mono ln" x="54" y="228" font-size="15" fill="#B6C2D1" style="animation-delay:1.35s"><tspan fill="#FFCA16">changed:</tspan> [web-02]</text><text class="mono ln" x="54" y="254" font-size="15" fill="#B6C2D1" style="animation-delay:1.80s"><tspan fill="#3DD68C">ok:</tspan> [db-01]</text><text class="mono ln" x="54" y="280" font-size="15" fill="#B6C2D1" style="animation-delay:2.25s"><tspan fill="#3DD68C">recap: failed=0</tspan></text>
+<path class="pkt" d="M 360 200 C 380 200 384 137 404 137 M 360 200 L 404 200 M 360 200 C 380 200 384 265 404 265" stroke="#2DB8A8" stroke-width="2.5" stroke-dasharray="10 10" stroke-linecap="round"/>
+<circle cx="360" cy="200" r="5" fill="#2DB8A8"/>
+<rect x="408" y="112" width="196" height="50" rx="10" fill="#192231" stroke="#4C5E76"/><rect x="424" y="126" width="56" height="6" rx="3" fill="#334155"/><rect x="424" y="140" width="40" height="6" rx="3" fill="#334155"/><text class="mono" x="500" y="143" font-size="14" fill="#F7F8FA">web-01</text><circle class="led" cx="584" cy="137" r="6" fill="#3DD68C" style="animation-delay:1.20s"/><rect x="408" y="176" width="196" height="50" rx="10" fill="#192231" stroke="#4C5E76"/><rect x="424" y="190" width="56" height="6" rx="3" fill="#334155"/><rect x="424" y="204" width="40" height="6" rx="3" fill="#334155"/><text class="mono" x="500" y="207" font-size="14" fill="#F7F8FA">web-02</text><circle class="led" cx="584" cy="201" r="6" fill="#3DD68C" style="animation-delay:1.65s"/><rect x="408" y="240" width="196" height="50" rx="10" fill="#192231" stroke="#4C5E76"/><rect x="424" y="254" width="56" height="6" rx="3" fill="#334155"/><rect x="424" y="268" width="40" height="6" rx="3" fill="#334155"/><text class="mono" x="500" y="271" font-size="14" fill="#F7F8FA">db-01</text><circle class="led" cx="584" cy="265" r="6" fill="#3DD68C" style="animation-delay:2.10s"/>
+<text x="32" y="64" font-size="30" font-weight="800" fill="#F7F8FA" letter-spacing="-0.4">server-deploy-toolkit</text>
+<rect x="364" y="40" width="160" height="30" rx="15" fill="#143A3B"/>
+<text x="444" y="61" text-anchor="middle" font-size="14" font-weight="600" fill="#5CE0CC">Ansible → Linux</text>
+<text x="32" y="340" font-size="17" fill="#B6C2D1">Deploy applications to your own Linux servers</text>
+<text x="32" y="366" font-size="17" fill="#B6C2D1">with <tspan fill="#F7F8FA" font-weight="600">Ansible</tspan>. No platform lock-in, just your hosts.</text>
+
+</svg>
