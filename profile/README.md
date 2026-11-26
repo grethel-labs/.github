@@ -34,7 +34,7 @@ Tools are maintained and documented. Experiments are exploratory and may break. 
 | Repository | Description | Status |
 |---|---|---|
 | [excaliplant](https://github.com/grethel-labs/excaliplant) | Render PlantUML as editable, hand-drawn Excalidraw diagrams, SVG, and PNG. Pure JavaScript, no Java or server required. | Tool |
-| [server-deploy-toolkit](https://github.com/grethel-labs/server-deploy-toolkit) | A self-hosted toolkit for deploying applications to Linux servers with Ansible, isolated environments, configurable hardening, monitoring, and optional AI-assisted maintenance. | Tool |
+| [opstend](https://github.com/grethel-labs/opstend) | OpsTend hardens Linux hosts, deploys isolated apps, and keeps watch after deployment. By Grethel Labs. | Tool |
 
 <details>
 <summary>Lab map</summary>
